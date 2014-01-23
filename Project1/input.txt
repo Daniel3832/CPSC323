@@ -1,0 +1,14 @@
+do{
+if(fahr < upper)
+{
+        do a := 23.00;
+}
+else
+{
+        read(upper);
+}
+}while(foo < fahr);  
+function convert (fahr)
+begin
+           return 5.5*(fahr-32.1)/9;
+end

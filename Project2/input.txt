@@ -1,0 +1,16 @@
+$$
+function convert (fahr:int)
+begin
+           return 5*(fahr -32)/9;
+end
+$$
+    int  i,max,sum;
+    
+    sum := 0;
+    i := 1;
+    read( max);
+    while (i <  max) do {
+          sum := sum + i;
+          i  := i + 1; }
+     write (sum+max);
+$$

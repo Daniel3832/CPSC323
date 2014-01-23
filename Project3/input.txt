@@ -1,0 +1,12 @@
+$$
+$$
+    int  i,max,sum;
+    
+    sum := 0;
+    i := 1;
+    read( max);
+    while (i <  max) do {
+          sum := sum + i;
+          i  := i + 1; }
+     write (sum+max);
+$$
